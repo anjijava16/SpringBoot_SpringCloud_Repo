@@ -100,6 +100,9 @@
 
 
 # Case 1: Implementing Eureka Server
+
+https://github.com/anjijava16/SpringBoot_SpringCloud_Repo/blob/master/Eureka_hystrix_SpringBOOT.zip
+
 Eureka Server is service discovery for your microservices, 
 where all client applications can register by themselves and other microservices look up the Eureka Server to get independent microservices to get the job complete.
 Eureka Server is also known as Discovery Server 
@@ -122,6 +125,8 @@ application.properties:
 spring.application.name=eureka-client-service
 server.port=8081
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+
+https://github.com/anjijava16/SpringBoot_SpringCloud_Repo/blob/master/Eureka_hystrix_SpringBOOT.zip
 
 MainApplication:
 
