@@ -9,7 +9,8 @@
 	
 	
 
-{
+	{
+	
 	"_links": {
 		"self": {
 			"href": "http://localhost:8888/actuator",
@@ -90,9 +91,10 @@
 		"features": {
 			"href": "http://localhost:8888/actuator/features",
 			"templated": false
+			}
 		}
 	}
-}
+
 
 
 # Case 1: Implementing Eureka Server
