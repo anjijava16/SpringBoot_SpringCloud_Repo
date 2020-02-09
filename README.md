@@ -1,6 +1,8 @@
 # SpringBoot_SpringCloud_Repo
 
 
+# 0. Spring DEV tools info
+
 	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
