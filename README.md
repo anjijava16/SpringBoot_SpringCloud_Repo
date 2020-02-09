@@ -1,6 +1,100 @@
 # SpringBoot_SpringCloud_Repo
 
 
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+	
+	
+
+{
+	"_links": {
+		"self": {
+			"href": "http://localhost:8888/actuator",
+			"templated": false
+		},
+		"auditevents": {
+			"href": "http://localhost:8888/actuator/auditevents",
+			"templated": false
+		},
+		"beans": {
+			"href": "http://localhost:8888/actuator/beans",
+			"templated": false
+		},
+		"health": {
+			"href": "http://localhost:8888/actuator/health",
+			"templated": false
+		},
+		"conditions": {
+			"href": "http://localhost:8888/actuator/conditions",
+			"templated": false
+		},
+		"configprops": {
+			"href": "http://localhost:8888/actuator/configprops",
+			"templated": false
+		},
+		"env": {
+			"href": "http://localhost:8888/actuator/env",
+			"templated": false
+		},
+		"env-toMatch": {
+			"href": "http://localhost:8888/actuator/env/{toMatch}",
+			"templated": true
+		},
+		"info": {
+			"href": "http://localhost:8888/actuator/info",
+			"templated": false
+		},
+		"loggers": {
+			"href": "http://localhost:8888/actuator/loggers",
+			"templated": false
+		},
+		"loggers-name": {
+			"href": "http://localhost:8888/actuator/loggers/{name}",
+			"templated": true
+		},
+		"heapdump": {
+			"href": "http://localhost:8888/actuator/heapdump",
+			"templated": false
+		},
+		"threaddump": {
+			"href": "http://localhost:8888/actuator/threaddump",
+			"templated": false
+		},
+		"metrics-requiredMetricName": {
+			"href": "http://localhost:8888/actuator/metrics/{requiredMetricName}",
+			"templated": true
+		},
+		"metrics": {
+			"href": "http://localhost:8888/actuator/metrics",
+			"templated": false
+		},
+		"scheduledtasks": {
+			"href": "http://localhost:8888/actuator/scheduledtasks",
+			"templated": false
+		},
+		"httptrace": {
+			"href": "http://localhost:8888/actuator/httptrace",
+			"templated": false
+		},
+		"mappings": {
+			"href": "http://localhost:8888/actuator/mappings",
+			"templated": false
+		},
+		"refresh": {
+			"href": "http://localhost:8888/actuator/refresh",
+			"templated": false
+		},
+		"features": {
+			"href": "http://localhost:8888/actuator/features",
+			"templated": false
+		}
+	}
+}
+
+
 # Case 1: Implementing Eureka Server
 Eureka Server is service discovery for your microservices, 
 where all client applications can register by themselves and other microservices look up the Eureka Server to get independent microservices to get the job complete.
