@@ -19,7 +19,6 @@ pom.xml
 public class EurekaServerApplication {
 main()
 }	
-# ======================================================================================
 # Case 2: Registering Client Application With Eureka Server
 application.properties:
 spring.application.name=eureka-client-service
@@ -37,7 +36,6 @@ MainApplication:
 	public static void main(String[] args) {
 	main()
 	}
-# ======================================================================================
 # Case 3: Implementing Zipkin Server For Distributed Tracing(Zipkin Server for Distributed Tracing)
 Distributed Tracing is crucial for troubleshooting and understanding microservices. It is very useful when we need to track the request passing through multiple microservices.
 Distributed Tracing can be used to measure the performance of the microservices. 
