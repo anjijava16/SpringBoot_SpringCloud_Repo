@@ -194,6 +194,8 @@ Now you have learned how to implement Zipkin Server for Distributed Tracing.
 
 # Case 5: Implementing Spring Cloud Config Server
 # Spring Cloud Config Server:
+https://github.com/anjijava16/SpringBoot_SpringCloud_Repo/blob/master/spring-cloud-config.zip
+
 Spring Cloud Config Server is a Spring-based centralized application which manages the application related configuration.
 
 Spring Cloud Config is a client-server application for storing and serving the distributed configuration across multiple environments and applications.
