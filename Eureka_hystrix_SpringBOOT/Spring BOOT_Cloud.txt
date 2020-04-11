@@ -1,0 +1,19 @@
+
+mvn package -Dmaven.test.skip=true
+
+1)Employee Service: (It is internally checking the http://localhost:8761/eureka/)
+  http://localhost:8011/findEmployeeDetails/111
+  
+2) API-Gateway with Hystrix
+  Create a Spring boot project from Spring boot initializer/Spring tool suite with dependencies Eureka Discovery, Actuator, Web, Hystrix, Hystrix Dashboard, Rest repositories.
+To monitor via Hystrix dashboard, open Hystrix dashboard at http://localhost:8010/hystrix
+  http://localhost:8010/hystrix
+  http://localhost:8010/hystrix.stream
+  
+This provides realtime information of all Hystrix commands and thread pools.
+
+
+3) Eureka admin dashboard view  
+ A)	Create a Spring boot project from Spring boot initializer/Spring tool suite with these dependencies Eureka Server, Actuator, Web, Spring Boot Admin Server.
+	http://localhost:8761/ (Eureka Server Info)
+ B) To monitor via Spring Boot Admin server, invoke this URL running at different context path- http://localhost:8761/admin.
